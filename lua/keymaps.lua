@@ -9,3 +9,6 @@ vim.api.nvim_set_keymap("n", "<C-h>", "<C-w>h", {})
 
 vim.api.nvim_set_keymap("n", "|", ":vs<CR>", {})
 vim.api.nvim_set_keymap("n", "_", ":split<CR>", {})
+
+-- Terminal Keymaps
+vim.api.nvim_set_keymap("t", "<ESC>", "<C-\\><C-n>", {})
